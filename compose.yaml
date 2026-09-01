@@ -1,0 +1,9 @@
+services:
+  web:
+    image: mywebsite
+    ports:
+      - "8082:80"
+
+  backend:
+    image: python:3.13-alpine
+    command: python -m http.server 8000
