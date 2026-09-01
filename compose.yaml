@@ -1,5 +1,6 @@
 services:
   web:
+  build: .
     image: mywebsite
     ports:
       - "8082:80"
