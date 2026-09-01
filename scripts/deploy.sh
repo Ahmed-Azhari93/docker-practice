@@ -5,7 +5,7 @@ set -e
 echo "=== DEPLOY START ==="
 
 echo "Starting application..."
-sudo docker compose up -d
+sudo docker compose -f compose.deploy.yaml up -d
 
 echo "Waiting for application..."
 sleep 3
