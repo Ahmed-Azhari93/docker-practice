@@ -1,6 +1,6 @@
 services:
   web:
-    image: ghcr.io/ahmed-azhari93/docker-practice:latest
+    image: ghcr.io/ahmed-azhari93/docker-practice:7e69891ede858f5f7a6846d983a155e25767c1f3
     ports:
       - "8082:80"
 
